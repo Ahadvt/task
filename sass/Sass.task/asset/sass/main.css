@@ -1,0 +1,153 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  margin: 30px 80px;
+}
+
+.container .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .info .text-info h1 {
+  color: #2D3192;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.container .info .get-info {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border: 3px solid #dfdcdc;
+  width: 180px;
+  height: 55px;
+  border-radius: 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+}
+
+.container .info .get-info:hover {
+  border: 3px solid orangered;
+}
+
+.container .info .get-info:hover .icon {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+}
+
+.container .info .get-info a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container .info .get-info .icon {
+  color: orangered;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.cards {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cards .card {
+  width: 30%;
+  height: 450px;
+  border: 1px solid #b9b8b8;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.cards .card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.cards .card .icon {
+  position: absolute;
+  top: 90px;
+  left: 120px;
+}
+
+.cards .card .about-card {
+  position: absolute;
+  top: 200px;
+}
+
+.cards .card .about-card h1 {
+  margin-bottom: 20px;
+}
+
+.teach-powered {
+  height: 95vh;
+  background-image: url(https://c8.alamy.com/comp/KWKE66/panorama-of-the-night-baku-view-frome-above-KWKE66.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.teach-powered .text {
+  font-size: 40px;
+  width: 48%;
+  position: absolute;
+  left: 50px;
+}
+
+.teach-powered .text-info {
+  background-color: #4949c0;
+  width: 48%;
+  height: 95vh;
+  font-size: 30px;
+  opacity: 0.7;
+  position: absolute;
+  right: 0px;
+}
+
+.teach-powered .text-info ul {
+  list-style-type: none;
+}
+
+.teach-powered .text-info ul li {
+  border-bottom: 1px solid white;
+  padding-bottom: 50px;
+}
+/*# sourceMappingURL=main.css.map */

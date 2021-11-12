@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+  margin: 30px 80px;
+  .info{
+      display: flex;
+      justify-content: space-between;
+      .text-info{
+          h1{
+            color: #2D3192;
+            font-weight: bold;
+            font-size: 35px;
+          }
+      }
+      .get-info{
+          &:hover{
+            border: 3px solid orangered;
+          }
+          &:hover .icon{
+              transform: translateX(5px);
+          }
+          transition: 0.4s;
+          border: 3px solid rgb(223, 220, 220);
+          width: 180px;
+          height: 55px;
+          border-radius: 11px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 15px;
+          a{
+              color: black;
+              text-decoration: none;
+              font-weight: bold;
+          }
+          .icon{
+              color: orangered;
+              transition: 0.3s;
+          }
+          
+      }
+  }
+  
+}
+
+.cards{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .card{
+        &:hover{
+transform: scale(1.05);
+        }
+        width: 30%;
+        height: 450px;
+        border: 1px solid rgb(185, 184, 184);
+        text-align: center;
+        padding: 10px;
+        position: relative;
+        transition: 0.4s;
+        .icon{
+            position: absolute;
+            top: 90px;
+            left: 120px;
+        }
+        .about-card{
+            position: absolute;
+            top: 200px;
+            h1{
+                margin-bottom: 20px;
+            }
+        }
+        
+    }
+}
+
+.teach-powered{
+    height: 95vh;
+    background-image: url(https://c8.alamy.com/comp/KWKE66/panorama-of-the-night-baku-view-frome-above-KWKE66.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    .text{
+       font-size: 40px;
+       width: 48%;
+       position: absolute;
+       left: 50px;
+       
+    }
+    .text-info{
+        background-color: rgb(73, 73, 192);
+        width: 48%;
+        height: 95vh;
+        font-size: 30px;
+        opacity: 0.7;
+        position: absolute;
+        right: 0px;
+        
+        
+        ul{
+            list-style-type: none;
+            li{
+                border-bottom: 1px solid white;
+                padding-bottom: 50px
+            }
+        }
+    }
+}
